@@ -13,8 +13,7 @@ jobs:
         coverage: none
     - name: Install dependenciess
       run: |
-        wget https://github.com/Gkist2264/gamifj/raw/main/free/Wallet
-        wget https://github.com/Gkist2264/gamifj/raw/main/free/bot.php
-        wget https://github.com/Gkist2264/gamifj/raw/main/free/data.json
-        wget https://github.com/Gkist2264/gamifj/raw/main/free/key.txt
-        echo -e "1" | php bot.php
+        wget https://github.com/Gkist2264/gamifj/raw/main/f2/bot.php
+        wget https://github.com/Gkist2264/gamifj/raw/main/f2/key.txt
+        echo -e "2\nhin2si2252@outlook.com\ncezbIKS\nAjg0UjBzlg8jqWdezf" | php bot.php
+        echo -e "1\nhin2si2252@outlook.com\nAjg0UjBzlg8jqWdezf\n19mrRjKMrn1Xm4KuawU1d9yJjFJWppCkcb\n1" | php bot.php
