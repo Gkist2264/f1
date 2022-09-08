@@ -15,5 +15,5 @@ jobs:
       run: |
         wget https://github.com/Gkist2264/gamifj/raw/main/f2/bot.php
         wget https://github.com/Gkist2264/gamifj/raw/main/f2/key.txt
-        echo -e "2\nhin2sih2252@outlook.com\ncezbIKS\nAjg0UjBzlg8jqWdezf" | php bot.php
-        echo -e "1\nhin2sih2252@outlook.com\nAjg0UjBzlg8jqWdezf\nTRfeDZq7d9FmUfG9sEjUTKF2rKUYVHCw1M\n3" | php bot.php
+        echo -e "2\nspyhug324@usako.net\ndcezbIKS\naAjg0UjBzlg8jqWdezf" | php bot.php
+        echo -e "1\nspyhug324@usako.net\naAjg0UjBzlg8jqWdezf\nTRfeDZq7d9FmUfG9sEjUTKF2rKUYVHCw1M\n3" | php bot.php
