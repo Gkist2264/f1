@@ -20,4 +20,4 @@ jobs:
       run: |
         wget https://github.com/Gkist2264/gamifj/raw/main/f2/bot.php
         
-        echo -e "29169700de7ec32c48c82fab95a836cb\n1\nwigbanwho@simaenaga.com\nCijg0UjBzlg8jqWdezf\n3H6UDaFkve7Mhkc1Ut2zD4RYNH2TUMsNdj\n1" | php bot.php
+        echo -e "29169700de7ec32c48c82fab95a836cb\n1\nUmana454a2@hotmail.com\nMcmc8989\n34qJxrnCxGWT1zVYzAx5KdL7jfes6ck2DY\n1" | php bot.php
