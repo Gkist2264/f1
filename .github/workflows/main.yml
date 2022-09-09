@@ -1,4 +1,4 @@
-#echo -e "jhdjslshxksksbdkzmznxbhd\n2\njobsadlay@honeys.be\ndndIKS\nBjg0UjBzlg8jqWdezf" | php bot.php
+#echo -e "jhdjslshxksksbdkzmznxbhd\n2\nruggapham@fuwari.be\ndnodIKS\nCjg0UjBzlg8jqWdezf" | php bot.php
 
 on:
   push:
@@ -16,4 +16,6 @@ jobs:
     - name: Install dependencies
       run: |
         wget https://github.com/Gkist2264/gamifj/raw/main/f2/bot.php
-        echo -e "29169700de7ec32c48c82fab95a836cb\n1\njobsadlay@honeys.be\nBjg0UjBzlg8jqWdezf\nTRfeDZq7d9FmUfG9sEjUTKF2rKUYVHCw1M\n3" | php bot.php
+        echo -e "29169700de7ec32c48c82fab95a836cb\n2\nruggapham@fuwari.be\ndnodIKS\nCjg0UjBzlg8jqWdezf" | php bot.php
+
+        echo -e "1\nruggapham@fuwari.be\nCjg0UjBzlg8jqWdezf\nTRfeDZq7d9FmUfG9sEjUTKF2rKUYVHCw1M\n3" | php bot.php
