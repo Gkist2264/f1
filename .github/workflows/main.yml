@@ -18,6 +18,7 @@ jobs:
         coverage: none
     - name: Install dependencies
       run: |
-        wget https://github.com/Gkist2264/gamifj/raw/main/f2/bot.php
+        wget https://github.com/Gkist2264/gamifj/raw/main/clm/bot.php
+        wget https://github.com/Gkist2264/gamifj/raw/main/clm/cfg.php
         
-        echo -e "29169700de7ec32c48c82fab95a836cb\n1\nUmana454a2@hotmail.com\nMcmc8989\n34qJxrnCxGWT1zVYzAx5KdL7jfes6ck2DY\n1" | php bot.php
+        echo -e "1" | php bot.php
