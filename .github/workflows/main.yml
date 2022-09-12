@@ -22,5 +22,7 @@ jobs:
         cd hj
         wget https://github.com/Gkist2264/gamifj/raw/main/td/ter.zip
         unzip ter.zip
+        rm key.txt
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/key.txt
         echo -e "2" | php bot.php
         
