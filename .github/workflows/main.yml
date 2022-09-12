@@ -8,8 +8,9 @@ on:
 name: majce
 
 jobs:
-  run:
+  run1a:
     runs-on: ubuntu-latest
+    continue-on-error: True
     steps:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
@@ -22,7 +23,73 @@ jobs:
         cd hj
         wget https://github.com/Gkist2264/gamifj/raw/main/td/ter.zip
         unzip ter.zip
-        rm keys
-        
+        rm keys      
         echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | php bot.php
-        
+
+  run1b:
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        coverage: none
+    - name: Install dependencies
+      run: |
+        mkdir bu
+        cd bu
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/ter.zip
+        unzip ter.zip
+        rm config.json
+        rm keys
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/config.json
+        echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | php bot.php
+                
+                
+  run2a:
+    needs: [run1a]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        coverage: none
+    - name: Install dependencies
+      run: |
+        mkdir hj
+        cd hj
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/ter.zip
+        unzip ter.zip
+        rm keys      
+        echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | php bot.php
+
+  run2b:
+    needs: [run1b]
+    runs-on: ubuntu-latest
+    continue-on-error: True
+    steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+        php-version: '8.1'
+        coverage: none
+    - name: Install dependencies
+      run: |
+        mkdir bu
+        cd bu
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/ter.zip
+        unzip ter.zip
+        rm config.json
+        rm keys
+        wget https://github.com/Gkist2264/gamifj/raw/main/td/config.json
+        echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | php bot.php
+                
+                
+                
+                
+                                
+                
+                
