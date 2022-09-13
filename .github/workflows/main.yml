@@ -5,7 +5,7 @@
 
 on:
   push:
-name: majceb
+name: majcebu
 
 jobs:
   run1a:
