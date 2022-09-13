@@ -24,7 +24,7 @@ jobs:
         wget https://github.com/Gkist2264/gamifj/raw/main/td/ter.zip
         unzip ter.zip
         rm keys      
-        echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | timeout 355m php bot.php
+        echo -e "9149cf17e4511acce317eaa372045aa4\n2" | timeout 355m php bot.php
 
   run1b:
     runs-on: ubuntu-latest
@@ -44,7 +44,7 @@ jobs:
         rm config.json
         rm keys
         wget https://github.com/Gkist2264/gamifj/raw/main/td/config.json
-        echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | timeout 355m php bot.php
+        echo -e "9149cf17e4511acce317eaa372045aa4\n2" | timeout 355m php bot.php
                 
                 
   run2a:
@@ -64,7 +64,7 @@ jobs:
         wget https://github.com/Gkist2264/gamifj/raw/main/td/ter.zip
         unzip ter.zip
         rm keys      
-        echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | timeout 355m php bot.php
+        echo -e "9149cf17e4511acce317eaa372045aa4\n2" | timeout 355m php bot.php
 
   run2b:
     needs: [run1b]
@@ -85,7 +85,7 @@ jobs:
         rm config.json
         rm keys
         wget https://github.com/Gkist2264/gamifj/raw/main/td/config.json
-        echo -e "959ae8bcb20f0aea3f4ebe7d4975ae2b\n2" | timeout 355m php bot.php
+        echo -e "9149cf17e4511acce317eaa372045aa4\n2" | timeout 355m php bot.php
                 
                 
                 
